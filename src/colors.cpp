@@ -1,5 +1,6 @@
 #include "colors.h"
 
+// Define color constants with specific RGB values
 const Color darkGrey = {26, 31, 40, 255};
 const Color green = {47, 230, 23, 255};
 const Color red = {232, 18, 18, 255};
@@ -11,6 +12,7 @@ const Color blue = {13, 64, 216, 255};
 const Color lightBlue = {59, 85, 162, 255};
 const Color darkBlue = {44, 44, 127, 255};
 
+// Define function to return a vector of predefined colors
 std::vector<Color> GetCellColors()
 {
     return {darkGrey, green, red, orange, yellow, purple, cyan, blue};
